@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hotel>
+    <info>
+        <name>Sunrise Hotel</name>
+        <location>Kigali, Rwanda</location>
+        <rating>4</rating>
+    </info>
+    <rooms>
+        <room>
+            <id>R101</id>
+            <type>Single</type>
+            <price>50</price>
+            <availability>true</availability>
+        </room>
+        <room>
+            <id>R102</id>
+            <type>Double</type>
+            <price>80</price>
+            <availability>false</availability>
+        </room>
+        <room>
+            <id>R201</id>
+            <type>Suite</type>
+            <price>150</price>
+            <availability>true</availability>
+        </room>
+    </rooms>
+    <guests>
+        <guest>
+            <id>G001</id>
+            <name>John Doe</name>
+            <roomId>R102</roomId>
+        </guest>
+        <guest>
+            <id>G002</id>
+            <name>Jane Smith</name>
+            <roomId>R201</roomId>
+        </guest>
+    </guests>
+</hotel>
