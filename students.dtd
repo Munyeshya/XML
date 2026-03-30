@@ -1,0 +1,18 @@
+<!ELEMENT school (students, courses, grades)>
+
+<!ELEMENT students (student+)>
+<!ELEMENT student (id, name, age, courseId)>
+
+<!ELEMENT courses (course+)>
+<!ELEMENT course (id, name, instructor)>
+
+<!ELEMENT grades (grade+)>
+<!ELEMENT grade (studentId, courseId, score)>
+
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT courseId (#PCDATA)>
+<!ELEMENT instructor (#PCDATA)>
+<!ELEMENT studentId (#PCDATA)>
+<!ELEMENT score (#PCDATA)>
