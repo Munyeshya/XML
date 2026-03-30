@@ -2,64 +2,47 @@
 <!DOCTYPE school SYSTEM "students.dtd">
 <school>
     <students>
-        <student>
-            <id>S001</id>
+        <student id="S001" courseId="C101">
             <name>Eric Iradukunda</name>
             <age>20</age>
-            <courseId>C101</courseId>
         </student>
-        <student>
-            <id>S002</id>
+        <student id="S002" courseId="C102">
             <name>Aline Mukamana</name>
             <age>22</age>
-            <courseId>C102</courseId>
         </student>
-        <student>
-            <id>S003</id>
+        <student id="S003" courseId="C103">
             <name>Claude Niyonzima</name>
             <age>21</age>
-            <courseId>C103</courseId>
         </student>
-        <student>
-            <id>S004</id>
+        <student id="S004" courseId="C101">
             <name>Eric Iradukunda</name>
-            <age>20</age>
-            <courseId>C101</courseId>
+            <ages>20</ages>
         </student>
     </students>
 
     <courses>
-        <course>
-            <id>C101</id>
+        <course id="C101">
             <name>Mathematics</name>
             <instructor>Mr. Habimana</instructor>
         </course>
-        <course>
-            <id>C102</id>
+        <course id="C102">
             <name>Computer Science</name>
             <instructor>Ms. Uwase</instructor>
         </course>
-        <course>
-            <id>C103</id>
+        <course id="C103">
             <name>Physics</name>
             <instructor>Mr. Nkurunziza</instructor>
         </course>
     </courses>
 
     <grades>
-        <grade>
-            <studentId>S001</studentId>
-            <courseId>C101</courseId>
+        <grade studentId="S001" courseId="C101">
             <score>A</score>
         </grade>
-        <grade>
-            <studentId>S002</studentId>
-            <courseId>C102</courseId>
+        <grade studentId="S002" courseId="C102">
             <score>B+</score>
         </grade>
-        <grade>
-            <studentId>S003</studentId>
-            <courseId>C103</courseId>
+        <grade studentId="S003" courseId="C103">
             <score>A-</score>
         </grade>
     </grades>
