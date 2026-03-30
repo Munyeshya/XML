@@ -28,12 +28,12 @@
     <guests>
         <guest>
             <id>G001</id>
-            <name>John Doe</name>
+            <name>Jean de Dieu</name>
             <roomId>R102</roomId>
         </guest>
         <guest>
             <id>G002</id>
-            <name>Jane Smith</name>
+            <name>Aline Uwase</name>
             <roomId>R201</roomId>
         </guest>
     </guests>
