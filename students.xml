@@ -14,10 +14,6 @@
             <name>Claude Niyonzima</name>
             <age>21</age>
         </student>
-        <student id="S004" courseId="C101">
-            <name>Eric Iradukunda</name>
-            <regNo>20</regNo>
-        </student>
     </students>
 
     <courses>
