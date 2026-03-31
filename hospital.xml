@@ -23,36 +23,36 @@
     </patients>
 
     <doctors>
-        <doctor id="101">
+        <doctor id="1">
             <name>Dr. Uwase</name>
             <specialty>General Medicine</specialty>
         </doctor>
-        <doctor id="102">
+        <doctor id="2">
             <name>Dr. Niyonzima</name>
             <specialty>Internal Medicine</specialty>
         </doctor>
-        <doctor id="103">
+        <doctor id="3">
             <name>Dr. Habimana</name>
             <specialty>Neurology</specialty>
         </doctor>
-        <doctor id="104">
+        <doctor id="4">
             <name>Dr. Uwimana</name>
             <specialty>Infectious Diseases</specialty>
         </doctor>
-        <doctor id="105">
+        <doctor id="5">
             <name>Dr. Kayitesi</name>
             <specialty>Allergy Care</specialty>
         </doctor>
-        <doctor id="106">
+        <doctor id="6">
             <name>Dr. Nkurunziza</name>
             <specialty>Gastroenterology</specialty>
         </doctor>
     </doctors>
 
     <records>
-        <record id="1001">
+        <record id="1">
             <patientId>1</patientId>
-            <doctorId>101</doctorId>
+            <doctorId>1</doctorId>
             <visitDate>2026-03-01</visitDate>
             <diagnosis>Malaria</diagnosis>
             <treatment>Antimalarial treatment</treatment>
@@ -66,9 +66,9 @@
                 <totalCost>25.00</totalCost>
             </billing>
         </record>
-        <record id="1002">
+        <record id="2">
             <patientId>1</patientId>
-            <doctorId>102</doctorId>
+            <doctorId>2</doctorId>
             <visitDate>2026-03-15</visitDate>
             <diagnosis>Flu</diagnosis>
             <treatment>Rest and medication</treatment>
@@ -81,9 +81,9 @@
                 <totalCost>15.00</totalCost>
             </billing>
         </record>
-        <record id="1003">
+        <record id="3">
             <patientId>2</patientId>
-            <doctorId>103</doctorId>
+            <doctorId>3</doctorId>
             <visitDate>2026-02-20</visitDate>
             <diagnosis>Headache</diagnosis>
             <treatment>Pain relief treatment</treatment>
@@ -96,9 +96,9 @@
                 <totalCost>10.00</totalCost>
             </billing>
         </record>
-        <record id="1004">
+        <record id="4">
             <patientId>2</patientId>
-            <doctorId>104</doctorId>
+            <doctorId>4</doctorId>
             <visitDate>2026-03-18</visitDate>
             <diagnosis>Typhoid</diagnosis>
             <treatment>Antibiotic treatment</treatment>
@@ -112,9 +112,9 @@
                 <totalCost>30.00</totalCost>
             </billing>
         </record>
-        <record id="1005">
+        <record id="5">
             <patientId>3</patientId>
-            <doctorId>105</doctorId>
+            <doctorId>5</doctorId>
             <visitDate>2026-01-10</visitDate>
             <diagnosis>Allergy</diagnosis>
             <treatment>Antihistamine treatment</treatment>
@@ -127,9 +127,9 @@
                 <totalCost>15.00</totalCost>
             </billing>
         </record>
-        <record id="1006">
+        <record id="6">
             <patientId>3</patientId>
-            <doctorId>106</doctorId>
+            <doctorId>6</doctorId>
             <visitDate>2026-03-25</visitDate>
             <diagnosis>Stomach Infection</diagnosis>
             <treatment>Medication and hydration</treatment>
