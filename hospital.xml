@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="hospital.xsd">
+    <patients>
+        <patient id="1">
+            <name>Jean Claude</name>
+            <gender>Male</gender>
+            <dob>2000-05-10</dob>
+            <phone>0781234567</phone>
+        </patient>
+        <patient id="2">
+            <name>Aline Mukamana</name>
+            <gender>Female</gender>
+            <dob>1998-11-22</dob>
+            <phone>0723456789</phone>
+        </patient>
+        <patient id="3">
+            <name>Eric Iradukunda</name>
+            <gender>Male</gender>
+            <dob>2001-01-14</dob>
+            <phone>0798765432</phone>
+        </patient>
+    </patients>
+
+    <doctors>
+        <doctor id="101">
+            <name>Dr. Uwase</name>
+            <specialty>General Medicine</specialty>
+        </doctor>
+        <doctor id="102">
+            <name>Dr. Niyonzima</name>
+            <specialty>Internal Medicine</specialty>
+        </doctor>
+        <doctor id="103">
+            <name>Dr. Habimana</name>
+            <specialty>Neurology</specialty>
+        </doctor>
+        <doctor id="104">
+            <name>Dr. Uwimana</name>
+            <specialty>Infectious Diseases</specialty>
+        </doctor>
+        <doctor id="105">
+            <name>Dr. Kayitesi</name>
+            <specialty>Allergy Care</specialty>
+        </doctor>
+        <doctor id="106">
+            <name>Dr. Nkurunziza</name>
+            <specialty>Gastroenterology</specialty>
+        </doctor>
+    </doctors>
+
+    <records>
+        <record id="1001">
+            <patientId>1</patientId>
+            <doctorId>101</doctorId>
+            <visitDate>2026-03-01</visitDate>
+            <diagnosis>Malaria</diagnosis>
+            <treatment>Antimalarial treatment</treatment>
+            <prescription>
+                <medicine>Coartem</medicine>
+                <medicine>Paracetamol</medicine>
+            </prescription>
+            <billing>
+                <consultationFee>10.00</consultationFee>
+                <medicationCost>15.00</medicationCost>
+                <totalCost>25.00</totalCost>
+            </billing>
+        </record>
+        <record id="1002">
+            <patientId>1</patientId>
+            <doctorId>102</doctorId>
+            <visitDate>2026-03-15</visitDate>
+            <diagnosis>Flu</diagnosis>
+            <treatment>Rest and medication</treatment>
+            <prescription>
+                <medicine>Cough Syrup</medicine>
+            </prescription>
+            <billing>
+                <consultationFee>8.00</consultationFee>
+                <medicationCost>7.00</medicationCost>
+                <totalCost>15.00</totalCost>
+            </billing>
+        </record>
+        <record id="1003">
+            <patientId>2</patientId>
+            <doctorId>103</doctorId>
+            <visitDate>2026-02-20</visitDate>
+            <diagnosis>Headache</diagnosis>
+            <treatment>Pain relief treatment</treatment>
+            <prescription>
+                <medicine>Ibuprofen</medicine>
+            </prescription>
+            <billing>
+                <consultationFee>6.00</consultationFee>
+                <medicationCost>4.00</medicationCost>
+                <totalCost>10.00</totalCost>
+            </billing>
+        </record>
+        <record id="1004">
+            <patientId>2</patientId>
+            <doctorId>104</doctorId>
+            <visitDate>2026-03-18</visitDate>
+            <diagnosis>Typhoid</diagnosis>
+            <treatment>Antibiotic treatment</treatment>
+            <prescription>
+                <medicine>Azithromycin</medicine>
+                <medicine>ORS</medicine>
+            </prescription>
+            <billing>
+                <consultationFee>12.00</consultationFee>
+                <medicationCost>18.00</medicationCost>
+                <totalCost>30.00</totalCost>
+            </billing>
+        </record>
+        <record id="1005">
+            <patientId>3</patientId>
+            <doctorId>105</doctorId>
+            <visitDate>2026-01-10</visitDate>
+            <diagnosis>Allergy</diagnosis>
+            <treatment>Antihistamine treatment</treatment>
+            <prescription>
+                <medicine>Cetirizine</medicine>
+            </prescription>
+            <billing>
+                <consultationFee>9.00</consultationFee>
+                <medicationCost>6.00</medicationCost>
+                <totalCost>15.00</totalCost>
+            </billing>
+        </record>
+        <record id="1006">
+            <patientId>3</patientId>
+            <doctorId>106</doctorId>
+            <visitDate>2026-03-25</visitDate>
+            <diagnosis>Stomach Infection</diagnosis>
+            <treatment>Medication and hydration</treatment>
+            <prescription>
+                <medicine>Metronidazole</medicine>
+                <medicine>ORS</medicine>
+            </prescription>
+            <billing>
+                <consultationFee>11.00</consultationFee>
+                <medicationCost>14.00</medicationCost>
+                <totalCost>25.00</totalCost>
+            </billing>
+        </record>
+    </records>
+</hospital>
