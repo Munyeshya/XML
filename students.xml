@@ -16,7 +16,7 @@
         </student>
         <student id="S004" courseId="C101">
             <name>Eric Iradukunda</name>
-            <ages>20</ages>
+            <regNo>20</regNo>
         </student>
     </students>
 
