@@ -22,38 +22,11 @@
         </patient>
     </patients>
 
-    <doctors>
-        <doctor id="1">
-            <name>Dr. Uwase</name>
-            <specialty>General Medicine</specialty>
-        </doctor>
-        <doctor id="2">
-            <name>Dr. Niyonzima</name>
-            <specialty>Internal Medicine</specialty>
-        </doctor>
-        <doctor id="3">
-            <name>Dr. Habimana</name>
-            <specialty>Neurology</specialty>
-        </doctor>
-        <doctor id="4">
-            <name>Dr. Uwimana</name>
-            <specialty>Infectious Diseases</specialty>
-        </doctor>
-        <doctor id="5">
-            <name>Dr. Kayitesi</name>
-            <specialty>Allergy Care</specialty>
-        </doctor>
-        <doctor id="6">
-            <name>Dr. Nkurunziza</name>
-            <specialty>Gastroenterology</specialty>
-        </doctor>
-    </doctors>
-
     <records>
         <record id="1">
             <patientId>1</patientId>
-            <doctorId>1</doctorId>
             <visitDate>2026-03-01</visitDate>
+            <doctorName>Dr. Uwase</doctorName>
             <diagnosis>Malaria</diagnosis>
             <treatment>Antimalarial treatment</treatment>
             <prescription>
@@ -68,8 +41,8 @@
         </record>
         <record id="2">
             <patientId>1</patientId>
-            <doctorId>2</doctorId>
             <visitDate>2026-03-15</visitDate>
+            <doctorName>Dr. Niyonzima</doctorName>
             <diagnosis>Flu</diagnosis>
             <treatment>Rest and medication</treatment>
             <prescription>
@@ -83,8 +56,8 @@
         </record>
         <record id="3">
             <patientId>2</patientId>
-            <doctorId>3</doctorId>
             <visitDate>2026-02-20</visitDate>
+            <doctorName>Dr. Habimana</doctorName>
             <diagnosis>Headache</diagnosis>
             <treatment>Pain relief treatment</treatment>
             <prescription>
@@ -98,8 +71,8 @@
         </record>
         <record id="4">
             <patientId>2</patientId>
-            <doctorId>4</doctorId>
             <visitDate>2026-03-18</visitDate>
+            <doctorName>Dr. Uwimana</doctorName>
             <diagnosis>Typhoid</diagnosis>
             <treatment>Antibiotic treatment</treatment>
             <prescription>
@@ -114,8 +87,8 @@
         </record>
         <record id="5">
             <patientId>3</patientId>
-            <doctorId>5</doctorId>
             <visitDate>2026-01-10</visitDate>
+            <doctorName>Dr. Kayitesi</doctorName>
             <diagnosis>Allergy</diagnosis>
             <treatment>Antihistamine treatment</treatment>
             <prescription>
@@ -129,8 +102,8 @@
         </record>
         <record id="6">
             <patientId>3</patientId>
-            <doctorId>6</doctorId>
             <visitDate>2026-03-25</visitDate>
+            <doctorName>Dr. Nkurunziza</doctorName>
             <diagnosis>Stomach Infection</diagnosis>
             <treatment>Medication and hydration</treatment>
             <prescription>
