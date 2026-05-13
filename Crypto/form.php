@@ -55,3 +55,6 @@ $result = fetchCryptoData($selectedCurrency);
     </center>
 </body>
 </html>
+<style>
+    
+</style>
