@@ -1,1 +1,0 @@
-library xml file with author,publications year, and ISBN number and a dtd for it
