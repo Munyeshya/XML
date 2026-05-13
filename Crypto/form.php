@@ -13,6 +13,7 @@ if (!array_key_exists($selectedCurrency, $currencies)) {
 }
 
 $result = fetchCryptoData($selectedCurrency);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
