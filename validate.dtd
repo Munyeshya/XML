@@ -2,10 +2,10 @@
 
 
 <!ELEMENT books (book+)>
-<!ELEMENT book (id, title, author, publicationYear, isbn)>
+<!ELEMENT book (id, title, author, year, isbn)>
 
 <!ELEMENT id (#PCDATA)>
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT author (#PCDATA)>
-<!ELEMENT publicationYear (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
 <!ELEMENT isbn (#PCDATA)>
